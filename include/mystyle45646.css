@@ -1,0 +1,145 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    min-width: 1300px;
+}
+a{
+    text-decoration:none
+}
+a:hover{
+    text-decoration:none
+}
+
+.navbar{
+    padding: 0px;
+    line-height: 100px;
+    background:#123;
+    z-index: 100;
+    box-shadow: 0px 0.5px 3px 0.5px #000;width: 100%;
+    height: 100px;
+}
+.line-navbar{
+  margin-right: 20px;
+}
+.link-navbar{
+   
+    color: #f2f2f2;
+}
+.link-navbar:hover{
+    color: #c2c2c2;
+}
+.greeting{
+
+    min-height: 400px;
+    line-height: 400px;
+    width: 100%;
+    min-width: 1300px;
+    text-align: center;
+    
+}
+.introduce-Vietnam{
+    background: #123;
+    width: 100%;
+   
+}
+.footer{
+    background: #123;
+    width: 100%;
+    text-align: center;
+}
+.fa{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #c2c2c2;
+}
+.fa:hover{
+   
+    color: #456;
+}
+.article-composition{
+    font-family: 'ZCOOL QingKe HuangYou', cursive; 
+    background: #e2e2e2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#search{
+    border: solid 1px #123;
+    width: 250px;
+}
+.btnsearch{
+    border: solid 1px #123;
+    background-color:#456;
+}
+.btnsearch:hover{
+    background: #777;
+}
+.box-posts{
+    background: #f5f5f5;
+    width: 100%;
+    height: 350px;
+    border: solid 1px #123;
+    margin-bottom: 50px;
+}
+.box-posts:hover{
+    box-shadow: 0px 0px 5px 5px #ccc;
+   
+}
+
+.img-login-accout{
+    height: 90px;
+    box-shadow: 0px 0px 3px 3px #456;
+    border-radius:90px
+}
+.img-login-accout:hover{
+    height: 100px;
+    box-shadow: 0px 0px 5px 5px #456;
+}
+.from-dangky{
+    border-radius: 6px;
+    margin: auto;
+    width: 500px;
+    color: #000;
+    background: #111;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 1px #229;
+}
+.btn-linklogin{
+    color: #abc; 
+}
+.box-black{
+    border-radius: 6px;
+    margin: auto;
+    width: auto;
+    color: #000;
+    background: #111;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 1px #229;
+}
+.menu-account{
+    color: #828282;
+}
+.menu-account:hover{
+    color: #f2f2f2;
+}
+.menu-account-logout{
+    color: #a22;
+    width: 100%;
+    text-align: center;
+}
+.menu-account-logout:hover{
+    color: #f22;
+}
+
+.box-travel-articles{
+    width: 300px;
+    height: 350px;
+    background: #f22;
+    margin: 15px;
+}
+img{
+    max-width: 100%;
+}
+
+ffdfd{
+    position: relative; top:25px;
+}

@@ -1,0 +1,16 @@
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/8.4/phpunit.xsd"
+         backupGlobals="true"
+         bootstrap="vendor/autoload.php"
+         verbose="true">
+
+    <testsuites>
+        <testsuite name="Test Fluent API">
+            <file>tests/eyes.selenium.php.tests/TestFluentApi_Chrome.php</file>
+        </testsuite>
+        <testsuite name="Images Tests">
+            <file>tests/eyes.images.php.tests/TestImages.php</file>
+        </testsuite>
+    </testsuites>
+
+</phpunit>

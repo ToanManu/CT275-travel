@@ -1,0 +1,91 @@
+html, body{
+    background: #234;
+    width: 100%;
+    height: 100%;
+}
+body{
+    background: #fff;
+}
+.Container{
+    width: 100%;
+    min-width: 1300px;
+    min-height: 100%;
+    height: 100%;
+}
+.box-menu{
+    float: left;
+    background: #234;
+    width: 15%;
+    min-height: 230px;
+    height: 100%;
+}
+.screen-menu{
+    line-height: 30px;
+    background: #234;
+    width: 100%;
+    min-width: 1070px;
+    height: 30px;
+}
+td{
+    border: solid 1px #123;
+}
+.main-screen{
+    background: #eee;
+    float: left;
+    width: 85%;
+    min-width: 1070px;
+    min-height: 100%;
+}
+.title-content{
+    line-height: 30px;
+    padding-left: 5px;
+    background: #0056b3;
+    width: 100%;
+    min-width: 1070px;
+    height: 30px;
+}
+.content{
+    padding: 5px;
+    width: 100%;
+    min-width: 1070px;
+    height: 100%;
+}
+.administrator-logo{
+    margin-top: 15px;
+    height: 30px;
+    margin-left: 10px;
+}
+.btnkgvien{
+    text-align: left;
+    width: 100%;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    background: #234;
+}
+.btnkgvien:hover{
+    background: #FF6600;
+}
+
+.line-menu{
+    padding-left: 7px;
+    padding-right: 5px;
+    line-height: 35px;
+    height: 35px;
+    color: #eee;
+    font-size: 15px;
+    border-bottom: solid 2px #345;
+}
+.line-menu:hover{
+    background: #0062cc;
+}
+.box-login{
+    position:absolute;
+    top: 30%;
+    left: 40%;
+    background: #fff;
+    width: 350px;
+    height: 300px;
+    padding: 25px;
+    border: 1px solid #666;
+}
