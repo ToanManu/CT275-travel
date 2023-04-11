@@ -17,10 +17,10 @@
         $taikhaon = $_POST['email'];
         $pass = $_POST['password'];
         require_once "../module/ConnectDatabase.php";
-        $getconect = new connectDatabase();
-        $getconect = $getconect->connect();
+        $getconnect = new connectDatabase();
+        $getconnect = $getconnect->connect();
         $sql = "SELECT password FROM user where id=0";
-        $getpass = mysqli_fetch_assoc(mysqli_query($getconect, $sql))['password'];
+        $getpass = mysqli_fetch_assoc(mysqli_query($getconnect, $sql))['password'];
         if($taikhaon === 'admin' && $pass=== $getpass){
             $_SESSION['loginadmin'] = 1;
         }
